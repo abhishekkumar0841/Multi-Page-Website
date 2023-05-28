@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  nav {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .nav-links li {
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+
+  main{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form{
+    border: 2px solid black;
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  form h1{
+    text-align: center;
+    font-weight: 900;
+  }
+
+  form div label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  form div input{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  form div textarea{
+    height: 100px;
+    width: 100%;
+    padding: 5px 10px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+  }
+
+  form button{
+    padding: 10px;
+    background: #22bc7e;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+  }
